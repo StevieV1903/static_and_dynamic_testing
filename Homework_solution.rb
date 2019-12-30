@@ -29,7 +29,7 @@ end
 end
 #The final end is not required
 
-def self.cards_total(cards)
+def self.cards_total( cards )
   total
   #@total = []
   for card in cards
