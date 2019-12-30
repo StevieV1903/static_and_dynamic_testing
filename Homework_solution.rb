@@ -31,11 +31,12 @@ end
 
 def self.cards_total(cards)
   total
-  #total = []
+  #@total = []
   for card in cards
     total += card.value
+    #@total += card.value
     return "You have a total of" + total
-    #return "You have a total of #{total}"
+    #return "You have a total of #{@total}"
   end
 end
 ```
