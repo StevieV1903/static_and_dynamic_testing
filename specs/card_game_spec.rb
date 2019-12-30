@@ -12,13 +12,12 @@ class TestCardGame < MiniTest::Test
     @card2 = Card.new( "Hearts", 1 )
 	end
 
-	def test_check_for_ace()
-    card = @card2
-    assert_equal(1, @card2.value)
-	end
-
-	# def test_pet_has_type()
-	# 	assert_equal(:cat, @pet1.type)
+	# def test_check_for_ace()
+  #   assert_equal(true, @CardGame.check_for_ace(@card2.value))
 	# end
+
+	def test_highest_card()
+		assert_equal(7, )
+	end
 
 end
